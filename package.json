@@ -1,0 +1,43 @@
+{
+  "name": "blackroaster",
+  "version": "1.0.0",
+  "description": "BlackRoaster – Specialty Coffee Roasters eCommerce Platform",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next dev",
+    "build": "cross-env NODE_TLS_REJECT_UNAUTHORIZED=0 next build",
+    "start": "next start",
+    "lint": "next lint",
+    "seed:admin": "node scripts/seed-admin.mjs"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^2.2.5",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "cloudinary": "^2.3.1",
+    "cookies-next": "^4.2.1",
+    "gsap": "^3.12.5",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.1",
+    "multer": "^1.4.5-lts.1",
+    "next": "14.2.3",
+    "next-cloudinary": "^6.10.0",
+    "nodemailer": "^6.9.13",
+    "razorpay": "^2.9.6",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-hot-toast": "^2.4.1",
+    "react-quill": "^2.0.0",
+    "react-range": "^1.8.14",
+    "react-redux": "^9.1.2",
+    "react-select": "^5.8.0",
+    "react-star-ratings": "^2.3.0",
+    "swiper": "^11.1.4",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "cross-env": "^10.1.0",
+    "eslint": "^8.57.0",
+    "eslint-config-next": "14.2.3"
+  }
+}
