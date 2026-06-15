@@ -5,7 +5,7 @@
 node_modules/
 jspm_packages/
 bower_components/
-.claude
+.claude/
 
 # ==========================================================
 # Environment Variables (Never commit secrets)
